@@ -49,7 +49,7 @@ void setup() {
   // Initialize serial monitor at 9600 baud
   Serial.begin(9600);  
 
-  // Initialize the SD card using Arduino pin 10
+  // Initialize the SD card 
   if (!sd.begin(sdPin)) sd.initErrorHalt();
 
   // Define the fanPin as an digital output pin

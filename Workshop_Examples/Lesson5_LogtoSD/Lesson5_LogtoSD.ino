@@ -57,7 +57,8 @@ int sdPin = 10; // define the chip select pin for the SD card reader
 
 
 void setup() {
- 
+  
+  // Initialize serial monitor at 9600 baud
   Serial.begin(9600);  
   
   // Initialize the SD card using Arduino pin 10 as the chip select (CS)

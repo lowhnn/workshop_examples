@@ -20,6 +20,7 @@ int temperaturePin = A0;
 
 void setup() {
  
+  // Initialize serial monitor at 9600 baud
   Serial.begin(9600);  
 
 }
