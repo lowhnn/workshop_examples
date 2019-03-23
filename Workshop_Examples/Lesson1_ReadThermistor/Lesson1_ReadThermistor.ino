@@ -1,11 +1,18 @@
 /*
- * Part of series:
- * Introduction to Arduino for Scientists
+ * Workshop: Automate and Enhance Your Research with Practical Electronics Using Arduino
+ * 
+ * March 28, 2019 at Stanford University Libraries
+ * 
  * Developed by Dr. Paul Leary, and Dr. Natalie Low
  * 
+ *
  * Lesson 1 -  Reading a thermistor 
  * 
  * Many uses of Arduinos in science involve reading one or more sensors and then doing something with the data.
+ * 
+ * A sensor is a device that measures something in the environment (e.g., temperature, humidity, sound) and 
+ * converts that information into a signal based on a physical electrical property (e.g., current, voltage, resistance).
+ * 
  * Here, we will read a simple sensor - a thermistor - with the Arduino using the analogRead() function.
  * 
  */
@@ -26,7 +33,12 @@ void setup() {
   // The setup() block is the first set of commands to run, and the block runs only once, before entering loop()
   
 
-  Serial.begin(9600);  // Open a line to the SERIAL MONITOR at 9600 BAUD rate (bits/second)
+  // Open a line to the serial monitor at 9600 baud rate (bits/second).
+  // The serial monitor is a useful way to get feedback on what the Arduino is doing.
+  // It can be especially useful for troubleshooting
+  // Note that serial communication uses digital pins 0 and 1, so we can't use them for other things
+  // while serial communication is happening.
+  Serial.begin(9600);  
 }
 
 void loop() {
@@ -48,7 +60,7 @@ void loop() {
   Serial.println();
 
   // And last, we delay for 500 ms.  Otherwise these commands would execute as fast as the Arduino could possibly run.
-//  delay(500);
+  delay(500);
 
 }
 
