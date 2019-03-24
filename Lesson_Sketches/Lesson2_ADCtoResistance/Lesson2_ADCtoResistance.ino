@@ -3,7 +3,8 @@
  * 
  * March 28, 2019 at Stanford University Libraries
  * 
- * Developed by Dr. Paul Leary, and Dr. Natalie Low
+ * Natalie HN Low, PhD (nlow@stanford.edu) and Paul R Leary, PhD (pleary@nps.edu)
+ * 
  * 
  * 
  * Lesson 2 - Converting a digital reading from a thermistor to a physical sensor property (resistance)
@@ -17,6 +18,7 @@
  */
 
 int temperaturePin = A0; 
+
 
 void setup() {
  

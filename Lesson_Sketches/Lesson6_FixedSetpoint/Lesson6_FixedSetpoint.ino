@@ -3,7 +3,7 @@
  * 
  * March 28, 2019 at Stanford University Libraries
  * 
- * Developed by Dr. Paul Leary, and Dr. Natalie Low
+ * Natalie HN Low, PhD (nlow@stanford.edu) and Paul R Leary, PhD (pleary@nps.edu)
  * 
  * 
  * 

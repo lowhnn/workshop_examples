@@ -3,7 +3,7 @@
  * 
  * March 28, 2019 at Stanford University Libraries
  * 
- * Developed by Dr. Paul Leary, and Dr. Natalie Low
+ * Natalie HN Low, PhD (nlow@stanford.edu) and Paul R Leary, PhD (pleary@nps.edu)
  * 
  * 
  * Lesson 3 - Calculating a useful temperature reading from the sensor's electrical property (resistance)
@@ -30,8 +30,7 @@ void loop() {
   // Read the thermistor input from the ADC
   int temperature_analog = analogRead(temperaturePin);  
 
-
-  // Convert digital values from the ADC to a resistance value
+  // Convert digital values from the ADC to a resistance value (Lesson 2)
   float temperature_resistance_ohms = calculate_resistance(temperature_analog, 10000.0, 5.0);
 
   // We know that the thermistor's resistance varies predictably with temperature.

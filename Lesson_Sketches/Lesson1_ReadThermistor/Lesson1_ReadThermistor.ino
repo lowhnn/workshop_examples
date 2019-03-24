@@ -3,7 +3,8 @@
  * 
  * March 28, 2019 at Stanford University Libraries
  * 
- * Developed by Dr. Paul Leary, and Dr. Natalie Low
+ * Natalie HN Low, PhD (nlow@stanford.edu) and Paul R Leary, PhD (pleary@nps.edu)
+ * 
  * 
  *
  * Lesson 1 -  Reading a thermistor 
@@ -41,7 +42,11 @@ void setup() {
   Serial.begin(9600);  
 }
 
+
+
+
 void loop() {
+  
   // The loop() block is a requirement of ANY Arduino program (even if it is left empty).
   // After the setup() block is run, loop() runs indefinitely.
   

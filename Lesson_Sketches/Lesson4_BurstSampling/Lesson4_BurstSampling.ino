@@ -3,7 +3,8 @@
  * 
  * March 28, 2019 at Stanford University Libraries
  * 
- * Developed by Dr. Paul Leary, and Dr. Natalie Low
+ * Natalie HN Low, PhD (nlow@stanford.edu) and Paul R Leary, PhD (pleary@nps.edu)
+ * 
  * 
  * 
  * Lesson 4 -  Burst sampling a sensor 
@@ -35,10 +36,10 @@ void loop() {
    int temperature_analog_avg = read_temp_avg(temperaturePin, 20);
 
 
-   // Convert the averaged digital values from the ADC to a resistance value
+   // Convert the averaged digital values from the ADC to a resistance value (Lesson 2)
    float temperature_resistance_ohms = calculate_resistance(temperature_analog_avg, 10000.0, 5.0);
    
-   // Convert the resistance value to a useable temperature value
+   // Convert the resistance value to a useable temperature value (Lesson 3)
    float temperature_C = calculate_temperature_C(temperature_resistance_ohms);
    
    // Print the temperature to the serial monitor so we can see it
