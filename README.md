@@ -1,8 +1,6 @@
-### Workshop: Automate & Enhance Your Research with Practical Electronics Using Arduino 
+Lesson sketches for Arduino workshops
 
-March 28, 2019 
 
----
 
 
 
